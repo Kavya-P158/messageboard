@@ -1,0 +1,24 @@
+{
+  "name": "messageboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kavya-P158/messageboard.git"
+  },
+  "author": "kavya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kavya-P158/messageboard/issues"
+  },
+  "homepage": "https://github.com/Kavya-P158/messageboard#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}

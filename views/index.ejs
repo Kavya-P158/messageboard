@@ -1,0 +1,17 @@
+
+<html lang="en">
+
+<body>
+    <a href="/new">New Message</a>
+    <ul>
+ <% messages.forEach((message)=>{ %>
+<li>
+    <%=message.text%>
+     <%=message.user%>
+     <%=message.added%>
+</li>
+<% }) %>
+    </ul>
+  
+</body>
+</html>
