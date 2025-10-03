@@ -2,8 +2,9 @@
   "name": "messageboard",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,9 +17,12 @@
     "url": "https://github.com/Kavya-P158/messageboard/issues"
   },
   "homepage": "https://github.com/Kavya-P158/messageboard#readme",
-  "description": "",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "ejs": "^3.1.10",
-    "express": "^5.1.0"
-  }
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "pg": "^8.16.3"
+  },
+  "description": ""
 }
